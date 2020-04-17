@@ -13,7 +13,13 @@
     }
 }
 
-@media only screen and (max-width: 991px) {}
+@media only screen and (max-width: 991px) {
+    .section-form .form-text {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+}
 
 /* Small Devises, Tablets */
 @media only screen and (max-width: 769px) {

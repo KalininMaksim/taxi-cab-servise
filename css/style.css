@@ -95,3 +95,74 @@ h4 {
     bottom: -85px;
     margin: 0 auto;
 }
+
+/*==================== section-form =================*/
+
+.section-form {
+    background: #ffc61a;
+}
+
+.form-text {
+    max-width: 545px;
+}
+
+.form-text p {
+    font-size: 18px;
+    padding-bottom: 60px;
+}
+
+.form-text .btn {
+    padding: 5px 40px;
+}
+
+.main-form {
+    background: #ffffff;
+    padding: 0 25px 25px 25px;
+}
+
+.form-header {
+    background: #000000;
+    color: #fff;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 20px;
+    margin: 0;
+}
+
+.form-group {
+    position: relative;
+}
+
+.form-group::after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: #e4e4e4;
+}
+
+.form-group input {
+    margin-top: 20px;
+    padding-left: 0;
+    border: none;
+}
+
+.placeholder-black input::placeholder {
+    color: #111111;
+}
+
+.btn-black {
+    background-color: #131313;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 29px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.main-form .btn {
+    padding: 15px 40%;
+}
