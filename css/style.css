@@ -1,0 +1,97 @@
+body {
+    font-family: "Lato", sans-serif;
+    min-width: 320px;
+    color: #101010;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+section {
+    padding: 100px 0;
+    background: #ffc61a;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+h4 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.text-yellow {
+    color: #ffc61a;
+}
+
+/*==================== header =================*/
+
+.main-header {
+    background: url(../img/header_bg.png) no-repeat center;
+    background-size: cover;
+    min-height: 850px;
+    padding-top: 40px;
+    position: relative;
+}
+
+.main-menu {
+    padding-right: 140px;
+}
+
+.navbar-toggler .fa-bars {
+    color: #fff;
+}
+
+.main-menu .nav-link {
+    padding-right: 40px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.main-menu .nav-link:hover {
+    color: rgb(201, 199, 199);
+    background: #ffc61a;
+    border-radius: 25px;
+    padding: 8px 20px;
+}
+
+.main-text {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 160px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main-text .site-phone {
+    color: #fff;
+    font-size: 72px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.main-text .site-address a {
+    letter-spacing: 1em;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.place-car img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -85px;
+    margin: 0 auto;
+}
