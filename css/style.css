@@ -1,168 +1,245 @@
 body {
-    font-family: "Lato", sans-serif;
-    min-width: 320px;
-    color: #101010;
+	font-family: "Lato", sans-serif;
+	min-width: 320px;
+	color: #101010;
 }
 
 img {
-    max-width: 100%;
-    height: auto;
+	max-width: 100%;
+	height: auto;
 }
 
 section {
-    padding: 100px 0;
-    background: #ffc61a;
+	padding: 50px 0;
 }
 
 h3 {
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 35px;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 35px;
 }
 
 h4 {
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 45px;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 45px;
+}
+
+.btn-black {
+	background-color: #131313;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: "Bebas Neue", sans-serif;
+	font-size: 29px;
+	border-radius: 10px;
+	margin-top: 20px;
+}
+
+.btn-yellow {
+	background-color: #ffc61a;
+	color: #000;
+	text-transform: uppercase;
+	font-family: "Bebas Neue", sans-serif;
+	font-size: 29px;
+	border-radius: 10px;
+	margin-top: 20px;
+	padding: 0 35px;
 }
 
 .text-yellow {
-    color: #ffc61a;
+	color: #ffc61a;
 }
 
 /*==================== header =================*/
 
 .main-header {
-    background: url(../img/header_bg.png) no-repeat center;
-    background-size: cover;
-    min-height: 850px;
-    padding-top: 40px;
-    position: relative;
+	background: url(../img/header_bg.png) no-repeat center;
+	background-size: cover;
+	min-height: 850px;
+	padding-top: 40px;
+	position: relative;
 }
 
 .main-menu {
-    padding-right: 140px;
+	padding-right: 140px;
 }
 
 .navbar-toggler .fa-bars {
-    color: #fff;
+	color: #fff;
 }
 
 .main-menu .nav-link {
-    padding-right: 40px;
-    text-decoration: none;
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: 600;
+	padding-right: 40px;
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 600;
 }
 
 .main-menu .nav-link:hover {
-    color: rgb(201, 199, 199);
-    background: #ffc61a;
-    border-radius: 25px;
-    padding: 8px 20px;
+	color: rgb(201, 199, 199);
+	background: #ffc61a;
+	border-radius: 25px;
+	padding: 8px 20px;
 }
 
 .main-text {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 160px;
-    margin: 0 auto;
-    text-align: center;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 160px;
+	margin: 0 auto;
+	text-align: center;
 }
 
 .main-text .site-phone {
-    color: #fff;
-    font-size: 72px;
-    font-weight: 600;
-    padding-bottom: 20px;
+	color: #fff;
+	font-size: 72px;
+	font-weight: 600;
+	padding-bottom: 20px;
 }
 
 .main-text .site-address a {
-    letter-spacing: 1em;
-    font-size: 20px;
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 600;
+	letter-spacing: 1em;
+	font-size: 20px;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 600;
 }
 
 .place-car img {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: -85px;
-    margin: 0 auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: -85px;
+	margin: 0 auto;
 }
 
 /*==================== section-form =================*/
 
 .section-form {
-    background: #ffc61a;
+	background: #ffc61a;
+	padding: 100px 0;
 }
 
 .form-text {
-    max-width: 545px;
+	max-width: 545px;
 }
 
 .form-text p {
-    font-size: 18px;
-    padding-bottom: 60px;
+	font-size: 18px;
+	padding-bottom: 60px;
 }
 
 .form-text .btn {
-    padding: 5px 40px;
+	padding: 5px 40px;
 }
 
 .main-form {
-    background: #ffffff;
-    padding: 0 25px 25px 25px;
+	background: #ffffff;
+	padding: 0 25px 25px 25px;
 }
 
 .form-header {
-    background: #000000;
-    color: #fff;
-    text-align: center;
-    font-size: 35px;
-    font-weight: 600;
-    text-transform: uppercase;
-    padding: 20px;
-    margin: 0;
+	background: #000000;
+	color: #fff;
+	text-align: center;
+	font-size: 35px;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding: 20px;
+	margin: 0;
 }
 
 .form-group {
-    position: relative;
+	position: relative;
 }
 
 .form-group::after {
-    content: "";
-    display: block;
-    height: 3px;
-    width: 100%;
-    background-color: #e4e4e4;
+	content: "";
+	display: block;
+	height: 3px;
+	width: 100%;
+	background-color: #e4e4e4;
 }
 
 .form-group input {
-    margin-top: 20px;
-    padding-left: 0;
-    border: none;
+	margin-top: 20px;
+	padding-left: 0;
+	border: none;
 }
 
 .placeholder-black input::placeholder {
-    color: #111111;
+	color: #111111;
 }
 
-.btn-black {
-    background-color: #131313;
-    color: #fff;
-    text-transform: uppercase;
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 29px;
-    border-radius: 10px;
-    margin-top: 20px;
+.btn-black:hover {
+	color: rgb(19, 219, 52);
 }
 
 .main-form .btn {
-    padding: 15px 40%;
+	padding: 15px 40%;
+}
+
+/*==================== section-tarifs =================*/
+.section-tarifs {
+	background: #fff;
+}
+
+.section-tarifs .card {
+	background: #f5f4f2;
+	padding-top: 75px;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.section-tarifs .card-img {
+	position: absolute;
+	top: -85px;
+}
+
+.section-tarifs .card h5 {
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.card .card-figure {
+	display: none;
+}
+
+.card .card-triangle {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 0;
+	height: 0;
+	border-bottom: 78px solid #1b1b1b;
+	border-left: 78px solid transparent;
+}
+
+.card .card-star {
+	position: absolute;
+	bottom: 0;
+	right: 5px;
+	color: #ffc61a;
+	font-size: 40px;
+}
+
+.card:hover .card-figure {
+	display: block;
+}
+
+.section-tarifs .card:hover h4 {
+	color: #131313;
+}
+
+.section-tarifs .card:hover {
+	background: #ffc61a;
+}
+
+.section-tarifs .card:hover .btn-yellow {
+	background-color: #1b1b1b;
+	color: #fff;
 }
