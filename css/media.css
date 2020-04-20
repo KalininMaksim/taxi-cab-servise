@@ -1,7 +1,11 @@
 /*========== media ============*/
 
 /* Lardge Devises, Wide Screens */
-@media only screen and (max-width: 1200px) {}
+@media only screen and (max-width: 1200px) {
+    .section-tarifs .card h5 {
+        font-size: 28px;
+    }
+}
 
 /* Medium Devises, Descktops */
 @media only screen and (max-width: 992px) {
@@ -10,6 +14,14 @@
         background: #000000;
         padding: 10px 20px;
         z-index: 1;
+    }
+
+    .section-tarifs .card {
+        padding-top: 0;
+    }
+
+    .section-tarifs .card .btn {
+        font-size: 25px;
     }
 }
 
@@ -22,7 +34,7 @@
 }
 
 /* Small Devises, Tablets */
-@media only screen and (max-width: 769px) {
+@media only screen and (max-width: 767px) {
     .main-header {
         min-height: 550px;
 
@@ -41,6 +53,10 @@
     .main-text .site-phone {
         font-size: 55px;
 
+    }
+
+    .section-tarifs .card .card-img {
+        display: none;
     }
 }
 
