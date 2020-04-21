@@ -243,3 +243,58 @@ h4 {
 	background-color: #1b1b1b;
 	color: #fff;
 }
+
+/*==================== section-choose-us =================*/
+
+.section-choose-us {
+	background: url(../img/choose_us_bg.png) center no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.section-choose-us h4 {
+	color: #fff;
+	margin-bottom: 50px;
+}
+
+.section-choose-us h5 {
+	color: #ffc61a;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.section-choose-us p {
+	color: #fff;
+	font-size: 18px;
+}
+
+.section-choose-us .choose-item {
+	max-width: 490px;
+	padding-right: 100px;
+	padding-bottom: 100px;
+	padding-left: 40px;
+}
+
+.choose-figure {
+	position: relative;
+}
+
+.choose-figure .circle {
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	background-color: #ffc61a;
+	border-radius: 50%;
+	left: -120px;
+	top: 30px;
+}
+
+.choose-figure .circle-icon {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	left: -98px;
+	top: 42px;
+	font-size: 35px;
+}
