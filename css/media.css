@@ -35,6 +35,14 @@
         display: none;
     }
 
+    .section-mobile-app .phone {
+        display: none;
+    }
+
+    .buution-mobile-app {
+        text-align: center;
+    }
+
 }
 
 /* Small Devises, Tablets */

@@ -298,3 +298,23 @@ h4 {
 	top: 42px;
 	font-size: 35px;
 }
+
+/*==================== text-description =================*/
+.section-mobile-app {
+	padding-bottom: 0;
+
+}
+
+.text-description P {
+	padding-bottom: 30px;
+}
+
+.text-description .downlaod {
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.buution-mobile-app img {
+	padding-right: 30px;
+	padding-bottom: 30px;
+}
