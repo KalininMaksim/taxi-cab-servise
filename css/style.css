@@ -367,3 +367,72 @@ h4 {
 	font-size: 77px;
 	font-weight: 700;
 }
+
+/*==================== footer =================*/
+
+.footer {
+	padding: 70px 0;
+	background: #0a0500;
+	color: #fff;
+
+}
+
+.footer h5 {
+	font-size: 25px;
+	font-weight: 700;
+	padding-bottom: 5px;
+	position: relative;
+}
+
+.footer h5::after {
+	content: '';
+	display: block;
+	position: absolute;
+	bottom: -15px;
+	height: 8px;
+	width: 100%;
+	background-color: #ffc61a;
+}
+
+.footer p,
+.footer ul {
+	margin: 0;
+	padding-left: 0;
+	padding-top: 20px;
+}
+
+.footer ul li {
+	list-style: none;
+
+}
+
+.footer ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.footer .about li {
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.footer .about li a {
+	color: #ffc61a;
+}
+
+.footer .download li a {
+	color: #ffc61a;
+	padding-right: 15px;
+}
+
+.footer .download li {
+	margin-bottom: 20px;
+}
+
+.footer .contact li a {
+	margin-left: 15px;
+}
+
+.footer .contact li {
+	margin-bottom: 20px;
+}
