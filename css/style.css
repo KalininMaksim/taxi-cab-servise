@@ -342,6 +342,7 @@ h4 {
 .section-reviews .card {
 	padding: 30px;
 }
+
 .card-img {
 	border-radius: 50%;
 }
@@ -349,6 +350,20 @@ h4 {
 .card-body {
 	text-transform: uppercase;
 }
+
 .card-body .card-name {
 	font-size: 25px;
+}
+
+
+/*==================== section-coll-number =================*/
+
+.section-telephone-number {
+	background: #ffc61a;
+	font-weight: 700;
+}
+
+.section-telephone-number h1 {
+	font-size: 77px;
+	font-weight: 700;
 }

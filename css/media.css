@@ -70,14 +70,32 @@
     .section-tarifs .card .card-img {
         display: none;
     }
+
+    .section-telephone-number h1 {
+        font-size: 65px;
+    }
 }
 
 @media only screen and (max-width: 576px) {}
+
+@media only screen and (max-width: 508px) {
+    .section-telephone-number h1 {
+        font-size: 60px;
+    }
+
+    .section-telephone-number h3 {
+        font-size: 25px;
+    }
+}
 
 /* Exstra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
     .person {
         top: 10px;
+    }
+
+    .section-telephone-number h1 {
+        font-size: 48px;
     }
 }
 
@@ -94,5 +112,13 @@
 
     .person {
         top: 25px;
+    }
+
+    .section-telephone-number h1 {
+        font-size: 38px;
+    }
+
+    .ssection-telephone-number h3 {
+        font-size: 18px;
     }
 }
