@@ -302,7 +302,6 @@ h4 {
 /*==================== text-description =================*/
 .section-mobile-app {
 	padding-bottom: 0;
-
 }
 
 .text-description P {
@@ -317,4 +316,39 @@ h4 {
 .buution-mobile-app img {
 	padding-right: 30px;
 	padding-bottom: 30px;
+}
+
+/*==================== section-reviews =================*/
+
+.section-reviews {
+	background: url(../img/reviews_bg.png) center no-repeat;
+	background-size: cover;
+}
+
+.section-reviews h4 {
+	font-size: 44px;
+	font-weight: 700;
+	color: #fff;
+	padding-bottom: 100px;
+}
+
+.section-reviews .card {
+	background: #040707;
+	border-radius: 40px;
+	color: #fff;
+	font-size: 18px;
+}
+
+.section-reviews .card {
+	padding: 30px;
+}
+.card-img {
+	border-radius: 50%;
+}
+
+.card-body {
+	text-transform: uppercase;
+}
+.card-body .card-name {
+	font-size: 25px;
 }

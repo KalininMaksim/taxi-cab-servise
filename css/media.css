@@ -75,7 +75,11 @@
 @media only screen and (max-width: 576px) {}
 
 /* Exstra Small Devices, Phones */
-@media only screen and (max-width: 480px) {}
+@media only screen and (max-width: 480px) {
+    .person {
+        top: 10px;
+    }
+}
 
 @media only screen and (max-width: 380px) {
     .main-text .site-phone {
@@ -86,5 +90,9 @@
     .main-header {
         min-height: 400px;
 
+    }
+
+    .person {
+        top: 25px;
     }
 }
