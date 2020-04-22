@@ -50,6 +50,35 @@ h4 {
 	color: #ffc61a;
 }
 
+.skrollToTop {
+	position: fixed;
+	bottom: 60px;
+	right: 50px;
+	border-radius: 4px;
+	display: none;
+	font-size: 32px;
+	height: 50px;
+	width: 50px;
+	z-index: 9;
+	color: #fff;
+	transition: all 0.75s;
+	background-color: #ffc61a;
+	cursor: pointer;
+	opacity: 0.5;
+	outline: none;
+	border: 1px solid #000;
+}
+
+.skrollToTop:hover {
+	opacity: 1;
+	border-radius: 50px;
+	outline: none;
+}
+
+.skrollToTop .fa-chevron-up {
+	color: #000;
+}
+
 /*==================== header =================*/
 
 .main-header {
